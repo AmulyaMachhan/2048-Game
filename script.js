@@ -72,7 +72,7 @@ const timeOut = setTimeout(() => {
         // Update score display
         document.getElementById('score').innerText = score;
     });    
-},1000);
+} , 1000);
 
 function filterZeroes(row){
     return row.filter(num=> num != 0);
