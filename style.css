@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Open Sans" , sans-serif;
     text-align: center;
 }
 
+h1{
+   font-size: 3rem;
+   margin-bottom: 10px; 
+}
 hr {
     width: 500px;
 }
@@ -17,14 +25,13 @@ hr {
 
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .tile {
-    width: 90px;
-    height: 90px;
+    height: 85px;
+    width: 85px;
     border: 5px solid #bbada0;
-
     font-size: 40px;
     font-weight: bold;
     display: flex;
