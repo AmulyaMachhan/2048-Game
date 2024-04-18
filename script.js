@@ -1,7 +1,5 @@
 let dialogHowTo = document.querySelector("#dialog-how-to");
-
 let stopGame = false;
-
 let arr = [];
 let hasCombine = [];
 let hasMove = true;
