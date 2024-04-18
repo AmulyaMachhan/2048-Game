@@ -145,7 +145,7 @@ function fill() {
 
             arr = arr.map((line, lineIndex) =>
                 line.map((item, itemIndex) => {
-                if (lineIndex === 0 || lineIndex === arr.length - 1) return "*";
+                if (lineIndex === 0 || lineIndex === arr.length - 1) return "";
                 return ["GAME", "OVER"][lineIndex - 1][itemIndex];
                 })
             );
