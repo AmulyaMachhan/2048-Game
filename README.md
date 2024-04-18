@@ -2,7 +2,7 @@
 
 Welcome to the 2048 game! This repository contains a browser-based implementation of the popular puzzle game "2048", where the goal is to combine tiles to reach the elusive 2048 tile.
 
-[Play 2048 Game]([#link_to_your_deployed_game](https://amulyamachhan.github.io/2048-Game/))
+[Play 2048 Game](https://amulyamachhan.github.io/2048-Game/).
 
 ## Table of Contents
 
