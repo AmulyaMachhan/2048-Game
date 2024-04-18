@@ -5,7 +5,8 @@ Welcome to the 2048 game! This repository contains a browser-based implementatio
 [Play 2048 Game](https://amulyamachhan.github.io/2048-Game/).
 
 ## Screenshot
-![amulyamachhan github io_2048-Game_](https://github.com/AmulyaMachhan/2048-Game/assets/111338400/255123d7-3982-4944-9674-5d79ee8a511e)
+![2048-GAME IMAGE](https://github.com/AmulyaMachhan/2048-Game/assets/111338400/1ebf5e77-a906-47e2-ab08-663469104c0e)
+
 
 ## Table of Contents
 
