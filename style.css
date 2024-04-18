@@ -232,7 +232,12 @@ dialog ::backdrop {
     font-weight: bold;
     font-size: 1.25rem;
 }
-  
+#dialog-how-to{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
 .how p {
     color: #222;
     grid-area: desc;
@@ -247,7 +252,7 @@ how p strong {
 }
   
 .how img {
-    height: 100px;
+    height: 130px;
     grid-area: image;
     justify-self: center;
 }
