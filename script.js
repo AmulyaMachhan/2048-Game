@@ -25,35 +25,35 @@ fill();
 
 
 document.addEventListener("click", (event) => {
-    const keyboardEventObject = {
-        keyCode: 0, // example values.
-    };
     const validButtons = ["up", "down", "left", "right"];
-    if (validButtons.includes(event.target.name)) {
-        switch (event.target.name) {
-            
+    const buttonName = event.target.getAttribute("name");
+
+    if (validButtons.includes(buttonName)) {
+        const keyboardEventObject = {
+            keyCode: 0,
+        };
+
+        switch (buttonName) {
             case "up":
                 keyboardEventObject.keyCode = 38;
-            break;
-            
+                break;
             case "down":
                 keyboardEventObject.keyCode = 40;
-            break;
-            
+                break;
             case "left":
                 keyboardEventObject.keyCode = 37;
-            break;
-            
+                break;
             case "right":
                 keyboardEventObject.keyCode = 39;
                 break;
         }
-    }
-            
-    if (keyboardEventObject.keyCode !== 0) {
-        document.dispatchEvent(new KeyboardEvent("keydown", keyboardEventObject));
+
+        if (keyboardEventObject.keyCode !== 0) {
+            document.dispatchEvent(new KeyboardEvent("keydown", keyboardEventObject));
+        }
     }
 });
+
         
 document.addEventListener("keydown", keyPush);
 
